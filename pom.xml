@@ -8,14 +8,14 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>5.0.6.Final</version>
+			<version>4.3.11.Final</version>
 		</dependency>
 
 		<!-- for JPA, use hibernate-entitymanager instead of hibernate-core -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
-			<version>5.0.6.Final</version>
+			<version>4.3.11.Final</version>
 		</dependency>
 
 		<!-- optional -->
@@ -23,32 +23,32 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-osgi</artifactId>
-			<version>5.0.6.Final</version>
+			<version>4.3.11.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-envers</artifactId>
-			<version>5.0.6.Final</version>
+			<version>4.3.11.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-c3p0</artifactId>
-			<version>5.0.6.Final</version>
+			<version>4.3.11.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-proxool</artifactId>
-			<version>5.0.6.Final</version>
+			<version>4.3.11.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-infinispan</artifactId>
-			<version>5.0.6.Final</version>
+			<version>4.3.11.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-ehcache</artifactId>
-			<version>5.0.6.Final</version>
+			<version>4.3.11.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
@@ -59,28 +59,8 @@
 	<repositories>
 		<repository>
 			<id>repo</id>
-			<url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+			<url>https://raw.github.com/CHANGQINGLUO/maven-repo/master</url>
 		</repository>
 	</repositories>
-	<licenses>
-		<license>
-			<name>The GNU General Public License, Version 2</name>
-			<url>
-http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-</url>
-			<distribution>repo</distribution>
-			<comments>
-MySQL Connector/J contains exceptions to GPL requirements when linking with other components that are licensed under OSI-approved open source licenses, see EXCEPTIONS-CONNECTOR-J in this distribution for more details.
-</comments>
-		</license>
-	</licenses>
-	<url>http://dev.mysql.com/doc/connector-j/en/</url>
-	<scm>
-		<connection>scm:git:git@github.com:mysql/mysql-connector-j.git</connection>
-		<url>https://github.com/mysql/mysql-connector-j</url>
-	</scm>
-	<organization>
-		<name>Oracle Corporation</name>
-		<url>http://www.oracle.com</url>
-	</organization>
+
 </project>
